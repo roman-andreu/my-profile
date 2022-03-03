@@ -1,0 +1,103 @@
+/* COLORS AND FONTS */
+
+body {
+	color: #498993;
+    background-color: #6cdbd545;
+    font-family: verdana;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+h1, h2, h3 {
+   font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+	 color: #2c6d6b;
+    font-weight: 100;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+h2 {
+	 color: #9dd2d0;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+    color: #84b2b7;
+}
+
+a:hover {
+	color : #498992;
+}
+
+/* CUSTOM DESIGNE WITH CLASS */
+.container {
+   width: 700px;
+   margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+   .container {
+      width: 600px;
+   }
+}
+
+@media (max-width: 500px) {
+   .container {
+      width: 400px;
+   }
+}
+
+.card-white {
+    background-color: #ffffff73;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+   border-radius:50px;
+}
+
+.btn-blue {
+    background-color: #84b2b7;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.btn-blue:hover {
+   background-color:black;
+   color: white;
+}
+
+.list-inline {
+   list-style:none;  
+   padding-left: 0px;
+}
+
+.list-inline li {
+   display: inline;
+   padding: 10px;
+}
+
+.list-inline i {
+   font-size: 50px;
+}
+
+#introduction p {
+   margin-bottom: 40px;
+}
+
+
+
+
+
+
+
